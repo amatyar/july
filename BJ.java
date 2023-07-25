@@ -1,5 +1,8 @@
 package July;
-
+/*The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users.
+declare class variables/attributes as private
+provide public get and set methods to access and update the value of a private variable
+ */
 public class BJ {
 
 	public static void main(String[] args) 
@@ -46,7 +49,7 @@ class  wholeseller
 			{
 				if(wholeseller.this.MemberName().equals("Rabindra")) 
 				{
-					this.MemberType = "you are 10 years loyal customer";
+					this.MemberType = "\tyou are 10 years loyal customer";
 				}
 				else 
 				{
