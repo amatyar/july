@@ -1,5 +1,6 @@
 package July;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class July31
 {
@@ -42,6 +43,17 @@ public class July31
 		System.out.println(ab);
 		int a1b = jobs.indexOf("Carpenter");
 		System.out.println(a1b);
+		
+		//create new array of string type
+		String[] arr = new String[jobs.size()]; 
+		
+		// convert arraylist to array
+		jobs.toArray(arr);
+		
+		
+		for (String ar : arr) {
+			//System.out.println(" Array " + ar + ",");
+		}System.out.println(Arrays.toString(arr));
 
 	}
 

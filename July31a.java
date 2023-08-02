@@ -1,5 +1,7 @@
 package July;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 public class July31a 
 {
 	public static void main(String[] args) 
@@ -35,6 +37,14 @@ public class July31a
 			System.out.println("Unavailabe bird.");
 		}
 
+		ArrayList<String> lang = new ArrayList<String>(Arrays.asList("Java", "Python", "C#", "C++","Noge.js"));
+		System.out.println("ArrayList" + lang);
+		
+		List<String> Language = new ArrayList<>();
+		Language.add(Input);
+		System.out.println(Language);
+		
+		
 	}
 
 }
