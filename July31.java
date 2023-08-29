@@ -7,7 +7,7 @@ public class July31
 	public static void main(String[] args)
 	{
 		ArrayList<String> jobs = new ArrayList<>();
-		// add ArrayList
+		// add ArrayList01
 		jobs.add("Carpenter");
 		jobs.add("Manager");
 		jobs.add("Cleaner");

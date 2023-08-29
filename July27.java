@@ -15,7 +15,7 @@ public class July27
 		
 		String q= Cities.get(0);
 		System.out.println(q);
-		// Retrive
+		// Retrieve
 		for(int i = 0; i < Cities.size(); i++)
 		{
 			//System.out.println(i);

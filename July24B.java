@@ -10,7 +10,10 @@ public class July24B {
 	}
 
 }
-enum Fries{ small, medium, large}
+enum Fries
+	{ 
+	small, medium, large
+	}
 class BK
 {
 	Fries Ordertype;
